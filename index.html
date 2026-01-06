@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Danny | Graphic Designer</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./style.css" />
+
+    <!-- Google Font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <style>
+      .gallery {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+        gap: 20px;
+      }
+
+      .card {
+        height: 300px;
+        overflow: hidden;
+        border-radius: 16px;
+      }
+
+      .card img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <header class="navbar">
+      <div class="container nav-content">
+        <h2 class="logo">Danny<span>.</span></h2>
+        <nav>
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#portfolio">Work</a>
+          <a href="#services">Services</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <!-- HERO -->
+    <section id="home" class="section hero reveal">
+      <div class="container hero-grid">
+        <div class="hero-text">
+          <h1>Creative Graphic Designer</h1>
+          <p>
+            I design clean, modern and impactful visuals that help brands
+            communicate clearly and stand out.
+          </p>
+          <a href="#portfolio" class="btn glow">View My Work</a>
+        </div>
+
+        <div class="hero-image">
+          <img src="image.png" alt="Designer" />
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section dark reveal">
+      <div class="container">
+        <h2 class="section-title">About Me</h2>
+
+        <div class="about-grid">
+          <div class="about-text">
+            <p>
+              Hi, I’m <strong>Daniel</strong>, a passionate graphic designer
+              focused on creating visually appealing and meaningful designs.
+            </p>
+
+            <p>
+              I specialize in branding, logo design, social media graphics,
+              flyers, posters, and marketing visuals. I combine creativity,
+              strategy, and attention to detail in every project.
+            </p>
+
+            <p>
+              I believe great design should not only look good but also solve
+              problems, tell stories, and build trust between brands and their
+              audiences.
+            </p>
+
+            <div class="about-stats">
+              <div>
+                <h3>10+</h3>
+                <span>Years Experience</span>
+              </div>
+              <div>
+                <h3>120+</h3>
+                <span>Projects</span>
+              </div>
+              <div>
+                <h3>100+</h3>
+                <span>Happy Clients</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="about-skills">
+            <h3>Tools & Skills</h3>
+            <ul>
+              <li>Adobe Photoshop</li>
+              <li>Adobe Illustrator</li>
+              <li>Adobe After Effects</li>
+              <li>Adobe InDesign</li>
+              <li>Brand Identity</li>
+              <li>Social Media Design</li>
+              <li>Print Design</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PORTFOLIO -->
+    <section id="portfolio" class="section reveal">
+      <div class="container">
+        <h2 class="section-title">Selected Works</h2>
+
+        <div class="gallery">
+          <div class="card">
+            <img src="dany1.jpeg" onclick="openLightbox(this.src)" />
+          </div>
+          <div class="card">
+            <img src="dany2.jpeg" onclick="openLightbox(this.src)" />
+          </div>
+          <div class="card">
+            <img src="dany3.jpeg" onclick="openLightbox(this.src)" />
+          </div>
+          <div class="card">
+            <img src="dany4.jpeg" onclick="openLightbox(this.src)" />
+          </div>
+          <div class="card">
+            <img src="dany 5.jpeg" onclick="openLightbox(this.src)" />
+          </div>
+          <div class="card">
+            <img src="dany6.jpeg" onclick="openLightbox(this.src)" />
+          </div>
+          <div class="card">
+            <img src="dany7.jpeg" onclick="openLightbox(this.src)" />
+          </div>
+          <div class="card">
+            <img src="dany8.jpeg" onclick="openLightbox(this.src)" />
+          </div>
+          <div class="card">
+            <img src="dany9.jpeg" onclick="openLightbox(this.src)" />
+          </div>
+          <div class="card">
+            <img src="dany10.jpeg" onclick="openLightbox(this.src)" />
+          </div>
+          <div class="card">
+            <img src="dany11.jpeg" onclick="openLightbox(this.src)" />
+          </div>
+          <div class="card">
+            <img src="dany12.jpeg" onclick="openLightbox(this.src)" />
+          </div>
+          <div class="card">
+            <img src="dany13.jpeg" onclick="openLightbox(this.src)" />
+          </div>
+          <div class="card">
+            <img src="dany14.jpeg" onclick="openLightbox(this.src)" />
+          </div>
+          <div class="card">
+            <img src="dany15.jpeg" onclick="openLightbox(this.src)" />
+          </div>
+          <div class="card">
+            <img src="dany16.jpeg" onclick="openLightbox(this.src)" />
+          </div>
+          <div class="card">
+            <img src="dany17.jpeg" onclick="openLightbox(this.src)" />
+          </div>
+          <div class="card">
+            <img src="dany18.jpeg" onclick="openLightbox(this.src)" />
+          </div>
+          <div class="card">
+            <img src="dany19.jpeg" onclick="openLightbox(this.src)" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section id="services" class="section dark reveal">
+      <div class="container">
+        <h2 class="section-title">Services</h2>
+
+        <div class="services-grid">
+          <div class="service-card">Logo Design</div>
+          <div class="service-card">Brand Identity</div>
+          <div class="service-card">Flyers & Posters</div>
+          <div class="service-card">Social Media Graphics</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section reveal">
+      <div class="container">
+        <h2 class="section-title">Get In Touch</h2>
+
+        <!-- REAL EMAIL FORM (Formspree) -->
+        <form
+          class="contact-form"
+          action="https://formspree.io/f/abcdwxyz"
+          method="POST"
+        >
+          <input type="text" name="name" placeholder="Your Name" required />
+          <input type="email" name="email" placeholder="Your Email" required />
+          <textarea
+            name="message"
+            placeholder="Your Message"
+            required
+          ></textarea>
+
+          <button type="submit" class="btn glow">
+            <i class="fas fa-paper-plane"></i> Send Message
+          </button>
+        </form>
+
+        <!-- SOCIAL ICONS -->
+        <div class="social-icons">
+          <a
+            href="https://www.instagram.com/fiifidhan?igsh=MW9rOXRkdnU5bWJtMw=="
+            target="_blank"
+            ><i class="fab fa-instagram"></i
+          ></a>
+          <a href="https://vm.tiktok.com/ZMHEBtEV7hfwX-kL06E/" target="_blank"
+            ><i class="fab fa-tiktok"></i
+          ></a>
+          <a href="https://www.facebook.com/share/17vNLW8ERY/" target="_blank"
+            ><i class="fab fa-facebook"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/dhaniel-ankrah-1798832b1?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+            target="_blank"
+            ><i class="fab fa-linkedin-in"></i
+          ></a>
+          <a href="mailto:dhanankrah@gmail.com"
+            ><i class="fas fa-envelope"></i
+          ></a>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p>©️ 2026 KIDIBI | Web Developer</p>
+    </footer>
+
+    <!-- LIGHTBOX -->
+    <div id="lightbox" onclick="closeLightbox()">
+      <img id="lightbox-img" />
+    </div>
+
+    <!-- WHATSAPP FLOAT -->
+    <a
+      href="https://wa.me/233554791241?text=Hello%20I%20saw%20your%20portfolio%20and%20I%20would%20like%20to%20work%20with%20you"
+      class="whatsapp-float"
+      target="_blank"
+    >
+      <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- JS -->
+    <script src="./script.js"></script>
+  </body>
+</html>
